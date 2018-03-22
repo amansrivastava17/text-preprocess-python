@@ -220,7 +220,7 @@ def remove_url(text):
 def remove_alphanumerics(text):
     """
     Remove alphanumeric words from text
-    Example: hello man whatsup123 => hello man whatsup
+    Example: hello man whatsup123 => hello man
     Args:
         text (str): text
     Returns:

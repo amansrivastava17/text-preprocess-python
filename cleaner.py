@@ -253,14 +253,12 @@ def remove_words_start_with(text, starts_with_char):
 def remove_stop_words(text, stop_words=stop_words_list):
     """
     This function removes stop words from text
-    Example: I am very excited for today's fotball match => very excited today's fotball match
+    Example: I am very excited for today's football match => very excited today's football match
     Params
-        text (str)
-            text on which processing needs to done
-        stop_words (str)
-            stop words which needs to be removed
+        text (str) :text on which processing needs to done
+        stop_words (list) : stop words which needs to be removed
     Returns
-        text after stop words removal
+        text(str): text after stop words removal
     """
     stop_words = set(stop_words)
     split_list = text.split(" ")

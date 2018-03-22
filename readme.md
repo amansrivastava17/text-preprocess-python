@@ -1,6 +1,6 @@
 # Text Preprocessing Tool
 
-Here is a text preprocessing tools in python to save you from most of preprocessing works you have to done before performing any o NLP task. 
+Here is a text preprocessing tool designed in python to save you from preprocessing tasks that you need to completed before performing any NLP task. 
 
 
 
@@ -36,6 +36,5 @@ Here is a text preprocessing tools in python to save you from most of preprocess
   - `Example: I am very excited for today's fotball match => very excited today's fotball match`
 
 
-
-
+**Note**: Anyone can contribute to the project by adding more the preprocessing module :)
 

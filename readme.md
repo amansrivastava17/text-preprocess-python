@@ -36,5 +36,5 @@ Here is a text preprocessing tool designed in python to save you from preprocess
   - `Example: I am very excited for today's fotball match => very excited today's fotball match`
 
 
-**Note**: Anyone can contribute to the project by adding more the preprocessing module :)
+**Note**: Anyone can contribute to the project by adding more to the preprocessing module Thanks :)
 

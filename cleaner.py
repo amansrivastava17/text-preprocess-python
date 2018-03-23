@@ -114,7 +114,7 @@ def stem_text(text, stemmer='snowball'):
 def remove_single_char_word(text):
     """
     Remove single character word from text
-    Example: I am in a home for 2 years => am in home for  
+    Example: I am in a home for 2 years => am in home for years 
     Args:
         text (str): text
          

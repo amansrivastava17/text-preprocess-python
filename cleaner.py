@@ -4,12 +4,12 @@ import re
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.stem.snowball import SnowballStemmer
 from nltk.stem import PorterStemmer
-from nltk import word_tokenizer
+from nltk import word_tokenize
 
 
 from appos.appos import appos_dict
 from slangs.slangs import slangs_dict
-from stop_words.stop_words import stop_words_list
+from stopwords.stopwords import stop_words_list
 from emoticons.emo import emo
 
 
@@ -102,7 +102,7 @@ def stem_text(text, stemmer='snowball'):
         text_stem (str): cleaned text with replaced stem words
     """
     text = remove_inside_braces(text)
-    tokens = word_tokenizer(text)
+    tokens = word_tokenize(text)
     if stemmer == 'snowball':
         text_stem = " ".join([sb_stem.stem(w) for w in tokens])
     else:
